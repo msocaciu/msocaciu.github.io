@@ -1,0 +1,392 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.bigbox {
+  width: 100%; }
+
+.center-contents {
+  text-align: center; }
+
+.box1 {
+  position:relative;
+  /*background-image: url("http://msocaciu.me/img/EXP1.jpg");*/
+  background-color: pink;
+  background-position: center;
+  background-size: cover;
+  height: 300px; }
+
+.box:hover {
+  cursor: hand;
+  opacity: .9; }
+
+/* line 33, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.box2 {
+  position:relative;
+  background-color: red;
+  /*background-image: url("http://msocaciu.me/img/MM3.png");*/
+  background-position: center;
+  background-size: cover;
+  height: 300px; }
+
+.box3 {
+  position:relative;
+  background-color: yellow;
+  /*background-image: url("http://msocaciu.me/img/influx_full2.jpg");*/
+  background-position: center;
+  background-size: cover;
+  height: 300px; }
+
+.box4 {
+  background-color: blue;
+  /*background-image: url("http://msocaciu.me/img/postershow_desktop2.jpg");*/
+  background-position: center;
+  background-size: cover;
+  height: 300px; }
+
+.box5 {
+  position:relative;
+  background-color: orange;
+  /*background-image: url("http://msocaciu.me/img/TTT.png");*/
+  background-position: center;
+  background-size: cover;
+  height: 300px; }
+
+.box6 {
+  position:relative;
+  background-color: purple;
+  /*background-image: url("http://msocaciu.me/marchahead/img/march_ahead_web1.jpg");*/
+  background-position: center;
+  background-size: cover;
+  height: 300px; }
+
+  .box7 {
+    position:relative;
+    background-color: green;
+    /*background-image: url("http://msocaciu.me/img/pet-population-mockup-1.jpg");*/
+    background-position: center;
+    background-size: cover;
+    height: 300px; }
+
+  .box8 {
+    position:relative;
+    background-color: indigo;
+    /*background-image: url("http://msocaciu.me/img/octavo_bs.jpg");*/
+    background-position: center;
+    background-size: cover;
+    height: 300px; }
+
+  .box9 {
+    position:relative;
+    background-color: black;
+    /*background-image: url("http://msocaciu.me/asuholiday/img/asucard1.jpg");*/
+    background-position: center;
+    background-size: cover;
+    height: 300px; }
+
+.box a {
+  position: static;
+}
+.box span {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+
+}
+.col-fill {
+  padding-top: 25px;
+  margin: 0;
+  display: inline-block; }
+
+.foot {
+  height: 60px;
+  margin-top: 40px;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+h1 {
+  color: #414042;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24pt;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.1em;
+  display: inline; }
+
+.icon {
+  float: right;
+  width: 30px;
+  margin-right: 20px; }
+
+img {
+  width: 100%; }
+
+.label {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: green;
+  text-align: center; }
+
+p {
+  color: #414042;
+  font-size: 12pt;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  line-height: 1.5em;
+  padding-top: 5%;
+  margin: auto;
+  width: 72%; }
+
+.name {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  left: 10px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: fixed;
+  top: 10px;
+  width: 225px;
+  z-index: 1; }
+
+.nav {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+.left-right-icons {
+  margin: 0;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center; }
+
+.left-right-icons img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px; }
+
+  a {
+    color: #616063;
+    display: inline-block;
+    position: relative;
+    font-style: italic;
+    text-decoration: none; }
+
+  a:after {
+    content: '';
+    position: absolute;
+    background: #FF5252;
+    height: 2px;
+    width: 0%;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    transition: .35s ease; }
+
+  a:hover:after, a:focus:after, a:active:after {
+    width: 100%;
+    border-radius: 20px; }
+
+.button_container {
+  position: fixed;
+  top: 3%;
+  right: 22px;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: opacity .25s ease; }
+
+  .button_container:hover {
+    opacity: .7; }
+
+  .button_container.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #FFF;
+    z-index:1001; }
+
+  .button_container.active .middle {
+    opacity: 0;
+    background: #FFF;
+   z-index:1001; }
+
+  .button_container.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #FFF;
+   z-index:1001; }
+
+  .button_container span {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .35s ease;
+    cursor: pointer; }
+
+    .button_container span:nth-of-type(2) {
+      top: 11px; }
+
+    .button_container span:nth-of-type(3) {
+      top: 22px; }
+
+.overlay {
+  position: fixed;
+  z-index:1000;
+  background: #FF5252;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden; }
+
+  .overlay.open {
+    opacity: .9;
+    visibility: visible;
+    height: 100%; }
+
+    .overlay.open li {
+      animation: fadeInRight .5s ease forwards;
+      animation-delay: .35s; }
+
+      .overlay.open li:nth-of-type(2) {
+        animation-delay: .4s; }
+
+      .overlay.open li:nth-of-type(3) {
+        animation-delay: .45s; }
+
+      .overlay.open li:nth-of-type(4) {
+        animation-delay: .50s; }
+
+.overlay nav {
+    position: relative;
+    height: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12pt;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center; }
+
+.overlay ul {
+    list-style: none;
+    padding: 0;
+    letter-spacing: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    height: 100%; }
+
+.overlay ul li {
+      display: block;
+      height: 25%;
+      height: calc(100% / 4);
+      min-height: 50px;
+      position: relative;
+      opacity: 0; }
+
+      .overlay ul li a {
+        color: #FFF;
+        display: block;
+        font-size: 12pt;
+        font-style: italic;
+        font-weight: 400;
+        overflow: hidden;
+        padding-bottom: 5px;
+        position: relative; }
+
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+          width: 100%; }
+
+.overlay ul li a:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 0%;
+          transform: translateX(-50%);
+          height: 3px;
+          background: #FFF;
+          transition: .35s; }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%; }
+  100% {
+    opacity: 1;
+    left: 0; } }
+@media (min-width: 900px) {
+  .center-contents {
+    text-align: center;
+    padding-top: 104px;
+    align-items: stretch; }
+
+  .box {
+    background-position: center;
+    flex-grow: 1;
+    height: 50vh;
+    width: 33%;
+    letter-spacing: .2px;
+    text-align: left;
+    vertical-align: top; }
+
+  .nav {
+    font-size: 20pt; }
+
+  h1 {
+    font-size: 24pt;
+    letter-spacing: 2px;
+    display: inline; }
+
+  p {
+    font-size: 13pt;
+    width: 60%; }
+
+  .bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap; }
+
+  body > * {
+    flex-shrink: 0; } }
