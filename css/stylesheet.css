@@ -16,6 +16,8 @@ html {
   padding: 0;
   margin: 0; }
 
+body {background-color: #FF5252;}
+
 .bigbox {
   width: 100%; }
 
@@ -126,13 +128,14 @@ html {
   width: 100%; }
 
 h1 {
-  color: #414042;
+  color: white;
   font-family: 'Nunito', sans-serif;
   font-size: 24pt;
   font-weight: 100;
-  letter-spacing: 2px;
-  line-height: 1.1em;
-  display: inline; }
+  margin-top: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center; }
 
 .icon {
   float: right;
@@ -150,14 +153,15 @@ img {
   text-align: center; }
 
 p {
-  color: #414042;
+  color: white;
   font-size: 12pt;
   font-family: 'Nunito', sans-serif;
   font-weight: 100;
   line-height: 1.5em;
-  padding-top: 5%;
-  margin: auto;
-  width: 72%; }
+  margin-left: 10%;
+  margin-right: 10%;
+  /*padding-top:.5%;*/
+  text-align: center; }
 
 .name {
   color: white;
@@ -199,7 +203,7 @@ p {
   padding-top: 10px; }
 
   a {
-    color: #616063;
+    color: black;
     display: inline-block;
     position: relative;
     font-style: italic;
@@ -208,7 +212,7 @@ p {
   a:after {
     content: '';
     position: absolute;
-    background: #FF5252;
+    background: black;
     height: 2px;
     width: 0%;
     transform: translateX(-50%);
@@ -376,11 +380,11 @@ p {
 
   h1 {
     font-size: 24pt;
-    letter-spacing: 2px;
-    display: inline; }
+    letter-spacing: 1px;
+    margin-top: 15%;}
 
   p {
-    font-size: 13pt;
+    font-size: 15pt;
     width: 60%; }
 
   .bigbox {
