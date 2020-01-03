@@ -25,6 +25,7 @@ html {
 .box1 {
   position:relative;
   background-image: url("http://msocaciu.me/img/EXP1.jpg");
+  background-color: pink;
   background-position: center;
   background-size: cover;
   height: 300px; }
@@ -36,6 +37,7 @@ html {
 /* line 33, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
 .box2 {
   position:relative;
+  background-color: red;
   background-image: url("http://msocaciu.me/img/MM3.png");
   background-position: center;
   background-size: cover;
@@ -43,12 +45,14 @@ html {
 
 .box3 {
   position:relative;
+  background-color: yellow;
   background-image: url("http://msocaciu.me/img/influx_full2.jpg  ");
   background-position: center;
   background-size: cover;
   height: 300px; }
 
 .box4 {
+  background-color: blue;
   background-image: url("http://msocaciu.me/img/postershow_desktop2.jpg");
   background-position: center;
   background-size: cover;
@@ -56,6 +60,7 @@ html {
 
 .box5 {
   position:relative;
+  background-color: orange;
   background-image: url("http://msocaciu.me/img/TTT.png");
   background-position: center;
   background-size: cover;
@@ -63,6 +68,7 @@ html {
 
 .box6 {
   position:relative;
+  background-color: purple;
   background-image: url("http://msocaciu.me/marchahead/img/march_ahead_web1.jpg");
   background-position: center;
   background-size: cover;
@@ -70,6 +76,7 @@ html {
 
   .box7 {
     position:relative;
+    background-color: green;
     background-image: url("http://msocaciu.me/img/pet-population-mockup-1.jpg");
     background-position: center;
     background-size: cover;
@@ -77,6 +84,7 @@ html {
 
   .box8 {
     position:relative;
+    background-color: indigo;
     background-image: url("http://msocaciu.me/img/octavo_bs.jpg");
     background-position: center;
     background-size: cover;
@@ -84,6 +92,7 @@ html {
 
   .box9 {
     position:relative;
+    background-color: black;
     background-image: url("http://msocaciu.me/asuholiday/img/asucard1.jpg");
     background-position: center;
     background-size: cover;
@@ -206,7 +215,7 @@ p {
     left: 50%;
     bottom: 0;
     transition: .35s ease; }
-    
+
   a:hover:after, a:focus:after, a:active:after {
     width: 100%;
     border-radius: 20px; }
