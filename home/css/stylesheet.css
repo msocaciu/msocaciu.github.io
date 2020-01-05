@@ -37,22 +37,23 @@ html {
 /* line 33, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
 .box2 {
   position:relative;
-  background-color: red;
-  /*background-image: url("http://msocaciu.me/img/MM3.png");*/
+  /*background-color: red;*/
+  background-image: url("http://msocaciu.me/img/MM3.png");
   background-position: center;
   background-size: cover;
   height: 300px; }
 
 .box3 {
   position:relative;
-  background-color: yellow;
-  /*background-image: url("http://msocaciu.me/img/influx_full2.jpg");*/
+  /*background-color: yellow;*/
+  background-image: url("http://msocaciu.me/img/influx_full2.jpg");
   background-position: center;
   background-size: cover;
   height: 300px; }
 
 .box4 {
-  background-color: blue;
+  /*background-color: blue;*/
+  background-image: url("http://msocaciu.me/img/ps-desktop-1.jpg");
   /*background-image: url("http://msocaciu.me/img/postershow_desktop2.jpg");*/
   background-position: center;
   background-size: cover;
@@ -68,15 +69,16 @@ html {
 
 .box6 {
   position:relative;
-  background-color: purple;
-  /*background-image: url("http://msocaciu.me/marchahead/img/march_ahead_web1.jpg");*/
+  /*background-color: purple;*/
+  background-image: url("http://msocaciu.me/marchahead/img/march_ahead_web1.jpg");
   background-position: center;
   background-size: cover;
   height: 300px; }
 
   .box7 {
     position:relative;
-    background-color: green;
+    /*background-color: green;*/
+    background-image: url("http://msocaciu.me/img/pet-population-mockup-v1.jpg");
     /*background-image: url("http://msocaciu.me/img/pet-population-mockup-1.jpg");*/
     background-position: center;
     background-size: cover;
@@ -84,7 +86,8 @@ html {
 
   .box8 {
     position:relative;
-    background-color: indigo;
+    /*background-color: indigo;*/
+    background-image: url("http://msocaciu.me/img/ob-full-set.jpg");
     /*background-image: url("http://msocaciu.me/img/octavo_bs.jpg");*/
     background-position: center;
     background-size: cover;
@@ -92,8 +95,8 @@ html {
 
   .box9 {
     position:relative;
-    background-color: black;
-    /*background-image: url("http://msocaciu.me/asuholiday/img/asucard1.jpg");*/
+    /*background-color: black;*/
+    background-image: url("http://msocaciu.me/asuholiday/img/asucard1.jpg");
     background-position: center;
     background-size: cover;
     height: 300px; }
