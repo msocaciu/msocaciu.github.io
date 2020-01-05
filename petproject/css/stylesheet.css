@@ -1,0 +1,444 @@
+/* line 4, /Users/MeaghanSocaciu1/Downloads/CodeKit.app/Contents/Resources/engines/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /Users/MeaghanSocaciu1/Downloads/CodeKit.app/Contents/Resources/engines/neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* line 4, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+html {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%; }
+
+/* line 9, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 12, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+* {
+  padding: 0;
+  margin: 0; }
+
+/* line 14, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+body {
+  /* bottom = footer height */ }
+
+/* line 18, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.bigbox {
+  height: 100vh;
+  width: 100%;
+}
+
+/* line 23, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.center-contents {
+margin-left: 14%;
+ }
+
+/* line 27, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.slide_viewer {
+  height: 300px;
+}
+
+/* line 33, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.column2 {
+  background-color: #f1f2f2;
+  height: 100%;
+  overflow-y: scroll;
+  width: 100%;
+ }
+
+/* line 39, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.col-fill {
+  display: inline-block;
+  padding-top: 25px;
+ }
+
+/* line 45, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.footer {
+  bottom: 0;
+  height: 58px;
+  position: fixed;
+  right: 10px; }
+
+/* line 56, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+h1 {
+  color: #414042;
+  display: inline;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 20px;
+  line-height: 39px; }
+
+/* line 66, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.icon {
+  float: right;
+  margin-right: 20px;
+  width: 30px; }
+
+/* line 72, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+img {
+  width: 100%; }
+
+/* line 77, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+p {
+  color: #414042;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  line-height: 1.5em;
+  margin: auto;
+  padding-top: 5%;
+  width: 72%; }
+
+/* line 88, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.name {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  left: 10px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: absolute;
+  top: 10px;
+  width: 225px;
+  z-index: 10; }
+
+/* line 102, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.nav {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+/* line 116, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.left-right-icons {
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center; }
+
+/* line 124, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.left-right-icons img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px; }
+
+/* line 145, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+a {
+  color: #616063;
+  display: inline-block;
+  font-style: italic;
+  position: relative;
+  text-decoration: none; }
+
+  /* line 155, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  a:after {
+    content: '';
+    background: #FF5252;
+    bottom: 0;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: .35s ease;
+    width: 0%; }
+
+  /* line 166, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  a:hover:after, a:focus:after, a:active:after {
+    border-radius: 20px;
+    width: 100%; }
+
+/* line 172, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.button_container {
+  position: fixed;
+  top: 23px;
+  right: 33px;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 1001;}
+
+  /* line 182, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .button_container:hover {
+    opacity: .7; }
+
+  /* line 187, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .button_container.active .top {
+    background: #FFF;
+    transform: translateY(11px) translateX(0) rotate(45deg); }
+
+  /* line 191, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .button_container.active .middle {
+    background: #FFF;
+    opacity: 0; }
+
+  /* line 196, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .button_container.active .bottom {
+    background: #FFF;
+    transform: translateY(-11px) translateX(0) rotate(-45deg); }
+
+  /* line 202, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .button_container span {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .35s ease;
+    cursor: pointer; }
+    .button_container span:nth-of-type(2) {
+      top: 11px; }
+    .button_container span:nth-of-type(3) {
+      top: 22px; }
+
+
+    /* line 213, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+    .button_container span:nth-of-type(2) {
+      top: 11px; }
+
+    /* line 217, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+    .button_container span:nth-of-type(3) {
+      top: 22px; }
+
+/* line 223, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+.overlay {
+  background: #FF5252;
+  height: 0%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: opacity .35s, visibility .35s, height .35s;
+  visibility: hidden;
+  width: 100%; }
+
+  /* line 235, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .overlay.open {
+    height: 100%;
+    opacity: .9;
+    visibility: visible;
+    z-index: 10; }
+
+    /* line 240, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+    .overlay.open li {
+      animation: fadeInRight .5s ease forwards;
+      animation-delay: .35s; }
+
+      /* line 244, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+      .overlay.open li:nth-of-type(2) {
+        animation-delay: .4s; }
+
+      /* line 247, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+      .overlay.open li:nth-of-type(3) {
+        animation-delay: .45s; }
+
+      /* line 250, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+      .overlay.open li:nth-of-type(4) {
+        animation-delay: .50s; }
+
+  /* line 255, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .overlay nav {
+    font-family: 'Vollkorn', serif;
+    font-size: 50px;
+    font-weight: 400;
+    height: 70%;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  /* line 265, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .overlay ul {
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    letter-spacing: 20px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative; }
+
+    /* line 273, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+    .overlay ul li {
+      display: block;
+      height: 25%;
+      height: calc(100% / 4);
+      min-height: 50px;
+      opacity: 0;
+      position: relative; }
+
+      /* line 281, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+      .overlay ul li a {
+        color: #FFF;
+        display: block;
+        font-size: 12pt;
+        font-style: italic;
+        font-weight: 400i;
+        overflow: hidden;
+        padding-bottom:5px;
+        position: relative; }
+
+
+        /* line 288, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+        .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+          width: 100%; }
+
+        /* line 294, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+        .overlay ul li a:after {
+          background: #FFF;
+          bottom: 0;
+          content: '';
+          height: 3px;
+          left: 50%;
+          position: absolute;
+          transform: translateX(-50%);
+          transition: .35s;
+          width: 0%; }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%; }
+  100% {
+    opacity: 1;
+    left: 0; } }
+
+ .slide_buttons {
+    display: none; }
+
+  .slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%; }
+
+ .slide {
+  background-position: center;
+  display: none;
+  position: absolute; }
+
+ .slide:first-child {
+    height:100%;
+    width:100%;
+    background-image: url("http://msocaciu.me/petproject/img/pet-population-mockup-v1.jpg");
+    background-size: cover; }
+
+  .slide:nth-of-type(2) {
+    height:100%;
+    width:100%;
+    background-image: url("http://msocaciu.me/petproject/img/pet-population-mockup-2.jpg");
+    background-size: cover; }
+
+  .slide:nth-of-type(3) {
+    height:100%;
+    width:100%;
+    background-image: url("http://msocaciu.me/petproject/img/pet-population-mockup-3.jpg");
+    background-size: cover; }
+
+
+@media (min-width: 900px) {
+  /* line 325, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .center-contents {
+    align-items: stretch;
+    padding-top: 104px;
+    text-align: left;
+    margin-left: 20%;
+    }
+
+  /* line 331, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .slide_viewer {
+    align-items: stretch;
+    flex-grow: 9;
+    height: inherit;
+    letter-spacing: .2px;
+    overflow:hidden;
+    text-align: left;
+    vertical-align: top; }
+
+  .slider {
+    height: 100%;
+    width: 100%; }
+
+  .slide_buttons {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 350px;
+    text-align: center; }
+
+  a.slide_btn {
+    color: white;
+    font-size: 42px;
+    margin: 0 0.175em;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+
+  .slide_btn.active, .slide_btn:hover {
+    color: #FF5252;
+    cursor: pointer; }
+
+  .slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%; }
+
+  /* line 341, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .column2 {
+    align-items: stretch;
+    background-color: #f1f2f2;
+    flex-grow: .5;
+    letter-spacing: .2px;
+    margin: 0px;
+    padding-bottom: 8%;
+    text-align: left;
+    vertical-align: top;
+    width: 42%; }
+
+  /* line 353, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .nav {
+    font-size: 20pt; }
+
+  /* line 357, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  h1 {
+    display: inline;
+    font-size: 13pt;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 20px;
+    line-height: 39px; }
+
+  /* line 362, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  p {
+    font-size: 13pt;
+    width: 60%; }
+
+  /* line 368, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  .bigbox {
+    display: flex;
+    position: relative; }
+
+  /* line 372, /Users/MeaghanSocaciu1/Desktop/portfoliosite/css/stylesheet.scss */
+  body > * {
+    flex-shrink: 0; } }
