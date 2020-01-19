@@ -24,8 +24,7 @@ html {
 
 .box1 {
   position:relative;
-  /*background-image: url("http://msocaciu.me/img/EXP1.jpg");*/
-  background-color: pink;
+  background-image: url("http://msocaciu.me/img/EXP1.jpg");
   background-position: center;
   background-size: cover;
   height: 300px; }
